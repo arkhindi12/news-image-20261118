@@ -179,7 +179,7 @@ def build() -> Image.Image:
 
     # hero: the day's biggest story, the largest running text on the page
     d.rectangle([M, p["hy"], W - M, p["hy"] + p["hh"]], fill=PANEL)
-    d.rectangle([M, p["hy"], M + 9, p["hy"] + p["hh"]], fill=GOLD)
+    d.rectangle([M, p["hy"], M + 9, p["hy"] + p["hh"]], fill=CYAN)
     d.text((M + INNER, p["hy"] + 8), HERO_TAG, font=p["htag_f"], fill=CYAN)
     for i, line in enumerate(p["hlines"]):
         d.text((M + INNER, p["hy"] + 46 + i * p["hlead"]),
