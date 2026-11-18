@@ -69,7 +69,7 @@ STORIES = [
     (GOLD, "MARKETS",
      "Anthropic prices its IPO at $83, above its range"),
     (VIOLET, "EUROPE",
-     "Five killed in Russian strikes on Ukraine; EU offers \u20ac45bn"),
+     "At least 5 killed in Ukraine; EU plans \u20ac45bn loan"),
 ]
 
 
